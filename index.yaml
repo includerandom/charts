@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  upsource:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-27T14:23:14.994824851+03:00"
+    description: A Helm chart for Kubernetes
+    digest: c55224f9ed188b0d6f96ed2103804236d003f9cc4b798cc6815a5f5af5ae3836
+    name: upsource
+    type: application
+    urls:
+    - https://includerandom.github.io/upsource-helm/upsource-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-05-27T14:23:14.993836254+03:00"

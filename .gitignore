@@ -1,0 +1,40 @@
+# ansible
+*.retry
+*/__pycache__
+*.pyc
+
+.gradle
+/build/
+static
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+#other
+roles_testing/
+ansible_testing/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+pom.xml
+
+### Python ###
+*/*/*/__pycache__/
