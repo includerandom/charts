@@ -7,7 +7,7 @@ Helm chart for deployment of JetBrains Upsource in Kubernetes.
 ```bash
 helm repo add upsource https://includerandom.github.io/upsource-helm
 helm repo update
-helm install --name=upsource upsource/upsource
+helm install upsource upsource/upsource
 ```
 
 ## Chart configuration

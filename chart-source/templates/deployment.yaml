@@ -68,8 +68,8 @@ spec:
               mountPath: /opt/upsource/logs
               subPath: logs
             - name: data
-              mountPath: /opt/upsource/backup
-              subPath: backup
+              mountPath: /opt/upsource/backups
+              subPath: backups
       volumes:
         - name: data
         {{- if .Values.persistence.enabled }}
